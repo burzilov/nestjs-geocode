@@ -4,15 +4,12 @@
   "description": "Geocode module for NestJS",
   "author": "Ivan Burzilov <burzilov@ya.ru>",
   "license": "MIT",
-  "main": "./dist/index.js",
-  "files": [
-    "./dist"
-  ],
+  "main": "./lib/index.js",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "prebuild": "rimraf dist",
+    "prebuild": "rimraf lib",
     "build": "nest build",
     "build:dev": "nest build --watch",
     "postversion": "git commit package.json -m \"Version $npm_package_version\" && npm run tag && git push && git push --tags",
