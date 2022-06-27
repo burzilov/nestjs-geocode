@@ -18,8 +18,7 @@
     "build:dev": "nest build --watch",
     "postversion": "git commit package.json -m \"Version $npm_package_version\" && npm run tag && git push && git push --tags",
     "tag": "git tag v$npm_package_version",
-    "release": "npm --no-git-tag-version version patch",
-    "publish": "npm run build && npm publish"
+    "release": "npm --no-git-tag-version version patch"
   },
   "dependencies": {
     "@nestjs/axios": "^0.0.8",
