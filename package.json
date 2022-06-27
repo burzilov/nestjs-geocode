@@ -1,6 +1,6 @@
 {
   "name": "@burzilov/nestjs-geocode",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Geocode module for NestJS",
   "author": "Ivan Burzilov <burzilov@ya.ru>",
   "license": "MIT",
