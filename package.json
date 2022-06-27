@@ -4,9 +4,9 @@
   "description": "Geocode module for NestJS",
   "author": "Ivan Burzilov <burzilov@ya.ru>",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
   "files": [
-    "dist"
+    "./dist"
   ],
   "publishConfig": {
     "access": "public"
